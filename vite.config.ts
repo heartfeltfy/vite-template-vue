@@ -24,7 +24,7 @@ export default defineConfig({
       }
     }),
     Components({
-      // 需要自动按需引入文件夹
+      // 需要自动按需引入的文件夹组件
       dirs: ['src/components'],
       resolvers: [ElementPlusResolver()],
       // 生成配置文件路径
@@ -33,6 +33,7 @@ export default defineConfig({
   ],
   resolve: {
     alias: {
+      // 配置路径别名
       '@': resolve(__dirname, './src')
     }
   },
