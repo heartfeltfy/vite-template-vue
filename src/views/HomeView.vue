@@ -1,4 +1,4 @@
-<script lang="ts" setup>
+<script lang='ts' setup>
 // import * as store from '@/store'
 // import Data from '@/api/api'
 
@@ -21,7 +21,7 @@
 </script>
 
 <template>
-  <div class="template">HomeView</div>
+  <div class='template'>HomeView</div>
 </template>
 
-<style lang="scss" scoped></style>
+<style lang='scss' scoped></style>
