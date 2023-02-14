@@ -5,12 +5,12 @@ export const useCarStore = defineStore('car', {
     return { index: 1 }
   },
   getters: {
-    getIndex (state) {
+    getIndex(state) {
       return state.index + 100
     }
   },
   actions: {
-    updateIndex () {
+    updateIndex() {
       this.index++
     }
   }

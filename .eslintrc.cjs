@@ -19,8 +19,7 @@ module.exports = {
     'vue'
   ] ,
   rules : {
-    // 禁止使用 var
-    'no-var' : 'error' ,
+    'no-var' : 'error' ,// 禁止使用 var
     'quotes' : [2 , 'single'] ,//引号类型 `` "" ''
     'semi' : ['error' , 'never'] ,// 语句强制分号结尾
     'indent' : ['error' , 2] , // 强制使用一致的缩进
@@ -38,6 +37,7 @@ module.exports = {
     '@typescript-eslint/strict-boolean-expressions' : 'off' ,
     '@typescript-eslint/prefer-optional-chain' : 'off' ,
     '@typescript-eslint/no-unused-vars' : 'off' ,
+    '@typescript-eslint/space-before-function-paren' : 'off' ,//关闭方法名后跟空格验证
     // '@typescript-eslint/quotes' : 'off' ,
     // '@typescript-eslint/semi' : 'off' ,
     '@typescript-eslint/no-extraneous-class' : 'off'

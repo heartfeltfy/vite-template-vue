@@ -7,7 +7,7 @@ const routes = [...base]
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes,
-  scrollBehavior () {
+  scrollBehavior() {
     return {
       el: '#app',
       top: 0,

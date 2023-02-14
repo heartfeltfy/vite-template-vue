@@ -4,4 +4,4 @@
   <div class='template'>暂无匹配到的路由</div>
 </template>
 
-<style scoped lang='scss'></style>
+<style lang='scss' scoped></style>

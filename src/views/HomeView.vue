@@ -1,11 +1,11 @@
 <script lang='ts' setup>
-// import * as store from '@/store'
+import * as store from '@/store'
 // import Data from '@/api/api'
 
 /**
  * 使用store
  */
-// console.log(store.useCarStore().index)
+console.log(store.useCarStore().index)
 /**
  * 使用axios获取数据
  */
